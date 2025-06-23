@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>744b3b78792c49ac9d4707bcbab28bb3</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact>
+        <CI_ResponsibleParty>
+            <organisationName>
+                <gco:CharacterString>Geoscience Australia</gco:CharacterString>
+            </organisationName>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp gco:nilReason="missing"/>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Liquid Fuel Terminals</gco:CharacterString>
+                    </title>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2023-04-11</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="ISOTC211/19115">creation</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2024-06-18</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>﻿AbstractThe Liquid Fuel Terminals Database presents the spatial locations; in point format, of all known liquid fuel terminals within Australia. For the purposes of this dataset a Liquid Fuel Terminal is defined as: A facility used for the storage of petroleum products.Accuracy of the spatial data varies depending on the geographic location of the liquid fuel terminals and the accuracy of the imagery used to digitize the feature. Where required, Geoscience Australia staff sought clarification from online sources to validate information. Geoscience Australia used a Validation and Testing methodology to ensure the quality and compliance of the liquid fuel terminals dataset. Testing is carried out using a mixture of computer programs and proprietary GIS packages (such as ArcGIS). Many of the tests are automated, using customised computer programs. These are supported by a detailed on-screen visual inspection of the digital data against available imagery and reference material for logical consistency and attribute accuracy.Where feature populations are small, or the validation tests are particularly important, the full population will be tested. Where feature populations are large, or a less stringent tolerance applies, a Statistical Subset or Sample (Area) test may be used. Statistical Subset tests are a random selection of features from the whole population, whereas Sample tests assess features within a selected geographical area. Statistically acceptable procedures are adopted for tests that require sampling. The sampling procedures adopted are based on the Australian Standard AS1199-1988: "Sampling procedures and tables for inspection by attribute". The Acceptable Quality Level (AQL) is in the range of 0% to 5% against a defined technical specification.All effort has been made to capture all the liquid fuel terminals listed in the primary information sources (refer to Source Information).CurrencyDate modified: 19 January 2023Modification frequency: As neededThe next revision of this database will be determined by Geoscience Australia’s work program. This timeframe ranges between 1 and 5 years or by formal written agreement with Geoscience Australia.Data extentSpatial extentNorth: -9.00°South: -44.00°East: 154.00°West: 112.00°Temporal extentFrom 1 August 2020 to 19 January 2023Source informationThe primary information sources used to locate and attribute the liquid fuel terminals were the following reports:Australian Competition &amp;amp; Consumer Commission’s December 2010 report entitled; “Monitoring of the Australian Petroleum Industry”Department of Resources, Energy and Tourism’s August 2009 report entitled; “Petroleum Import Infrastructure in Australia”Where required, the primary information sources were supplemented with publicly available information from owner/operator websites to confirm the locations.Catalog entry: Liquid Fuel TerminalsLineage statementThe liquid fuel terminals were digitized in 2012 from orthophotos and satellite imagery held within Geoscience Australia. Imagery used ranged from 0.15m to 2.5m resolution.The database was released on Geoscience Australia’s website in March 2015.The liquid fuel terminals dataset (points only) was released as a subset of the Liquid Fuels Facilities web service in February 2016.The Liquid fuel terminals (points) dataset was revised in August 2020.The Liquid fuel terminals (points) dataset was updated to Version 2 in August 2022.Data dictionaryAll layersAttribute nameDescriptionFEATURETYPEA description of this feature’s type (Fuel Terminal)DESCRIPTIONBrief description of the feature typeCLASSAn identifier for the feature’s subtype (Fuel Terminal)FIDA unique alphanumeric codeNAMEThe name of this featureOPERATIONALSTATUSA description of the feature’s statusOPERATOROperator of the facilityOWNEROwner of the facilityADDRESSThe address of this featureSUBURBThe suburb where this feature is locatedSTATEThe state where this feature is locatedSPATIALCONFIDENCEA confidence value (5 = high to 1 = low) of the feature’s spatial location as assigned by the spatial professionalREVISEDThe date the feature was last revisedContactGeoscience Australia, clientservices@ga.gov.au</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>Spatial locations; in point format, of all known liquid fuel terminals within Australia. Listing provided by Geoscience Australia (GA).</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>© Commonwealth of Australia (Geoscience Australia) 2023.</gco:CharacterString>
+            </credit>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Foundation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Physical Infrastructure</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Energy</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>﻿License: Creative Commons Attribution 4.0.
+Access rights: Open
+Security classification: OFFICIAL</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <topicCategory>
+                <MD_TopicCategoryCode>utilitiesCommunication</MD_TopicCategoryCode>
+            </topicCategory>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>111.99999999999811</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>153.99999999999739</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>-43.99999999999925</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>-8.99999999999986</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <transferOptions>
+                <MD_DigitalTransferOptions>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://services.ga.gov.au/gis/rest/services/Liquid_Fuel_Facilities/MapServer/1</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+</MD_Metadata>

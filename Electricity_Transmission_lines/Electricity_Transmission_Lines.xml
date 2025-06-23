@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>70f23e91102a4d6899a776d093fa08ef</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact>
+        <CI_ResponsibleParty>
+            <organisationName>
+                <gco:CharacterString>Geoscience Australia</gco:CharacterString>
+            </organisationName>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp gco:nilReason="missing"/>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Electricity Transmission Lines</gco:CharacterString>
+                    </title>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2023-03-15</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="ISOTC211/19115">creation</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2025-01-30</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>Abstract
+The Electrical Infrastructure database presents the spatial locations of Major Power Stations, Electricity Transmission Substations and Electricity Transmission Lines; in point and line format respectively, for known major power stations, transmission substations and transmission lines within Australia.This dataset describes Electricity Transmission Lines; structures in which high voltage electricity supply is converted, controlled or transformed.
+Currency
+Date modified: 17 January 2025
+Modification frequency: As needed
+Data extent
+Spatial extent
+North: -9.00°
+South: -44.00°
+East: 154.00°
+West: 112.00°
+Source information
+In addition to Esri World Imagery, the latest information sources used to identify and attribute the electricity transmission lines were publicly available publications from utility companies, engineering firms and government agencies.
+Catalog entry: National Electricity Infrastructure
+Lineage statement
+The release information for previous and current versions of this dataset is included below: Data download: Mar 2015: Public release of GA’s Electricity Infrastructure Database (separated into 3 parts: Major Power stations, Electricity Transmission line and Electricity Transmission Substations) – Version 1 Mar 2017: Public release of GA’s Electricity Infrastructure Database (separated into 3 parts: Major Power stations, Electricity Transmission line and Electricity Transmission Substations) – Version 2 Feb 2021: Public release of GA’s Electricity Infrastructure Database (separated into 3 parts: Major Power stations, Electricity Transmission line and Electricity Transmission Substations) – Version 3 Nov 2024: Public release of GA’s National Electricity Infrastructure Database – Version 4 Web Service: Feb 2016: Public release as a subset of GA’s Electricity Infrastructure separated into 3 parts: Major Power stations, Electricity Transmission line and Electricity Transmission Substations) web service – Version 1 July 2017: Public release as a subset of GA’s Electricity Infrastructure separated into 3 parts: Major Power stations, Electricity Transmission line and Electricity Transmission Substations) web service – Version 2 Feb 2021: Public release as a subset of GA’s Electricity Infrastructure separated into 3 parts: Major Power stations, Electricity Transmission line and Electricity Transmission Substations) web service – Version 3 Jan 2025: Public release as GA’s National Electricity Infrastructure web service – Version 4
+Data dictionary
+All layers
+
+
+
+Attribute name
+Description
+
+
+
+
+OBJECTID*
+Automatically generated system ID
+
+
+SHAPE*
+Geometry type (Polyline)
+
+FEATURETYPE
+A singled feature type “Transmission Line” is the 
+collective name of the different facility subtypes 
+identified in the CLASS field
+
+
+DESCRIPTION
+Brief description of the feature type
+
+
+CLASS
+The feature type subtypes:OverheadUnderground
+
+
+GA_GUID
+A global unique ID
+
+
+NAME
+The name of each individual feature
+
+
+OPERATIONALSTATUS
+A description of the feature’s status:Operational (functioning as an active 
+transmission line)Non-Operational (no longer operational as 
+an active transmission line)
+
+
+CAPACITYKV
+Transmission voltage of the powerline - kilovolts
+
+
+STATE
+The state where this feature is located
+
+
+SPATIALCONFIDENCE
+Confidence rating of the accuracy of the feature’s 
+spatial location (5 high – 1 low)
+
+
+REVISED
+The date the feature was last revised
+
+
+COMMENT
+A free text field for adding general comments about 
+this feature to external users
+
+
+LENGTH_M
+Length of the line in metres measured along the 
+shortest distance with Earth curvature (geodesic 
+line).
+
+
+SHAPE_Length
+Automatically generated length in decimal degrees
+
+
+Contact
+Geoscience Australia, clientservices@ga.gov.au</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>The high voltage electricity network transport from generators to large demand customers and the lower voltage electricity distribution network. Listing provided by Geoscience Australia (GA).</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>© Commonwealth of Australia (Geoscience Australia) 2024.</gco:CharacterString>
+            </credit>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Foundation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Physical Infrastructure</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Energy</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>﻿License: Creative Commons Attribution 4.0.
+Access rights: Open
+Security classification: OFFICIAL</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <topicCategory>
+                <MD_TopicCategoryCode>utilitiesCommunication</MD_TopicCategoryCode>
+            </topicCategory>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>111.99999999999622</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>153.9999999999948</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>-43.99999999999851</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>-8.99999999999972</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <transferOptions>
+                <MD_DigitalTransferOptions>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://services.ga.gov.au/gis/rest/services/National_Electricity_Infrastructure/MapServer/2</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+</MD_Metadata>
